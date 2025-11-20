@@ -2,8 +2,7 @@ name: Trigger E2E Tests
 
 on:
   push:
-    branches:
-      - main
+    branches: [main, master]
 
 jobs:
   trigger:
