@@ -14,5 +14,5 @@ jobs:
           curl -X POST \
             -H "Authorization: Bearer ${{ secrets.TESTS_REPO_TOKEN }}" \
             -H "Accept: application/vnd.github+json" \
-            https://api.github.com/repos/<your-org>/<tests-repo>/dispatches \
+            https://api.github.com/repos/Qoshuq/lucid_autotests/dispatches \
             -d '{"event_type": "run-tests"}'
